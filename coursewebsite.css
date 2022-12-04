@@ -1,0 +1,178 @@
+.background{
+    background: radial-gradient(black 40%, purple);
+    background-size: cover;
+    min-width: 768px;
+    max-width: 2140px;
+}
+
+body {
+    margin: 0px;
+}
+.faq_paragraph{
+    min-height: 100px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.hr_faq{
+    border-top: 2px solid rgb(156, 207, 188);    
+    width: 99%;
+}
+
+.sub-headings{
+    background: linear-gradient(to right, rgb(152, 109, 109), orange, red);
+    color: white;
+    font-family:red-serif;   
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 36px;
+    margin: 20px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(194, 203, 200);
+    text-decoration-thickness: 2px;
+    
+}
+.nav-styling{
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.hr{
+    margin-top: 100px;
+    border-top: 2px solid rgb(156, 207, 188);    
+    width: 99%;
+}
+
+
+.testimonial-paragraph{
+    padding: 10px;
+    font-size: 16px;
+    color:blueviolet;
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+
+}
+
+.course-paragraph{
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-heading {
+    margin: 20px;
+    padding: 5px;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-decoration: underline 5px;
+    background: radial-gradient(rgb(136, 200, 130), white);    
+    color: rgb(169, 84, 51);
+    text-decoration-color: rgb(173, 63, 120);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.course-container{
+    border: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: radial-gradient(rgb(230, 221, 221)50%, rgb(166, 253, 4));
+    text-align: center;
+    
+}
+
+
+.module-border-wrap {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+  }
+  
+  .module {
+    background: #222;
+    color: white;
+    padding: 2rem;
+  }
+
+.demo-container{
+    border: 5px solid;
+    border-color: rgb(104, 156, 180);
+    text-align: center;
+    padding: 10px;
+    background: white
+    
+}
+
+.testimonial-container{
+    border: 5px solid rgb(132, 198, 89);
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+    
+}
+
+.course-image {
+    width: 100%;
+    text-align: center;
+}
+
+
+.button-styling{
+    background-color: rgb(114, 69, 114);
+    width: 150px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-color: white;
+    
+}
+
+.contact-section{    
+    
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.frequently_q{
+    display: grid;
+    background-color: lightyellow;
+    grid-template-columns: auto;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(120, 195, 115), rgb(181, 115, 115), white);
+}
+
+.opactiy {
+    opacity: 0.8;
+  }
+  
+img:hover {
+    opacity: 1.0;
+  }
+
+.cropped {
+    width: 700px; 
+    height: 700px; 
+    object-fit: cover;
+    object-position:20% 10%;         
+    border: 3px solid black;
+}
