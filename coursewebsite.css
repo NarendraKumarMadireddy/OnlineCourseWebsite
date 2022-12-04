@@ -170,7 +170,7 @@ img:hover {
   }
 
 .cropped {
-    width: 701px; 
+    width: 700px; 
     height: 700px; 
     object-fit: cover;
     object-position:20% 10%;         
